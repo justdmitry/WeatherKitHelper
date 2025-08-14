@@ -2,3 +2,5 @@
 *.user
 bin
 obj
+appsettings.*.json
+/WeatherKitHelper/WeatherKitHelper.xml

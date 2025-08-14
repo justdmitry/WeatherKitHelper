@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Blizzard" xml:space="preserve">
+    <value>Метель</value>
+  </data>
+  <data name="BlowingDust" xml:space="preserve">
+    <value>Пыльная буря или песчаная буря</value>
+  </data>
+  <data name="BlowingSnow" xml:space="preserve">
+    <value>Поземка или метель с переносом снега</value>
+  </data>
+  <data name="Breezy" xml:space="preserve">
+    <value>Лёгкий ветер, свежий бриз</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Ясно</value>
+  </data>
+  <data name="Cloudy" xml:space="preserve">
+    <value>Облачно, сплошная облачность</value>
+  </data>
+  <data name="Drizzle" xml:space="preserve">
+    <value>Морось или лёгкий дождь</value>
+  </data>
+  <data name="Flurries" xml:space="preserve">
+    <value>Снегопад или лёгкий снег</value>
+  </data>
+  <data name="Foggy" xml:space="preserve">
+    <value>Туман</value>
+  </data>
+  <data name="FreezingDrizzle" xml:space="preserve">
+    <value>Переохлаждённая морось или лёгкий дождь</value>
+  </data>
+  <data name="FreezingRain" xml:space="preserve">
+    <value>Ледяной дождь</value>
+  </data>
+  <data name="Frigid" xml:space="preserve">
+    <value>Мороз, низкие температуры или ледяные кристаллы</value>
+  </data>
+  <data name="Hail" xml:space="preserve">
+    <value>Град</value>
+  </data>
+  <data name="Haze" xml:space="preserve">
+    <value>Дымка</value>
+  </data>
+  <data name="HeavyRain" xml:space="preserve">
+    <value>Сильный дождь</value>
+  </data>
+  <data name="HeavySnow" xml:space="preserve">
+    <value>Сильный снегопад</value>
+  </data>
+  <data name="Hot" xml:space="preserve">
+    <value>Высокая температура</value>
+  </data>
+  <data name="Hurricane" xml:space="preserve">
+    <value>Ураган</value>
+  </data>
+  <data name="MostlyClear" xml:space="preserve">
+    <value>Преимущественно ясно</value>
+  </data>
+  <data name="MostlyCloudy" xml:space="preserve">
+    <value>Преимущественно облачно</value>
+  </data>
+  <data name="StrongStorms" xml:space="preserve">
+    <value>Особенно сильные грозы</value>
+  </data>
+  <data name="ScatteredThunderstorms" xml:space="preserve">
+    <value>Многочисленные грозы, охватывающие до 50% прогнозируемой территории</value>
+  </data>
+  <data name="PartlyCloudy" xml:space="preserve">
+    <value>Переменная облачность</value>
+  </data>
+  <data name="SunShowers" xml:space="preserve">
+    <value>Дождь при видимом солнце</value>
+  </data>
+  <data name="Rain" xml:space="preserve">
+    <value>Дождь</value>
+  </data>
+  <data name="Sleet" xml:space="preserve">
+    <value>Дождь со снегом (слякоть)</value>
+  </data>
+  <data name="Smoky" xml:space="preserve">
+    <value>Дым или задымлённость</value>
+  </data>
+  <data name="SunFlurries" xml:space="preserve">
+    <value>Снегопад при видимом солнце</value>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Снег</value>
+  </data>
+  <data name="IsolatedThunderstorms" xml:space="preserve">
+    <value>Грозы, охватывающие менее 1/8 прогнозируемой территории</value>
+  </data>
+  <data name="Thunderstorms" xml:space="preserve">
+    <value>Грозы</value>
+  </data>
+  <data name="TropicalStorm" xml:space="preserve">
+    <value>Тропический шторм</value>
+  </data>
+  <data name="Windy" xml:space="preserve">
+    <value>Ветрено</value>
+  </data>
+  <data name="WintryMix" xml:space="preserve">
+    <value>Сложные зимние осадки (дождь, снег, гололёд)</value>
+  </data>
+</root>
