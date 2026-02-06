@@ -12,8 +12,7 @@ Use NuGet package [WeatherKitHelper](https://www.nuget.org/packages/WeatherKitHe
 
 ## Dependencies
 
-* Microsoft.Extensions.Http, v9.0.8
-* System.Text.Json, v9.0.8
+* Microsoft.Extensions.Http, v10.0.2
 
 ## Development & Testing
 
